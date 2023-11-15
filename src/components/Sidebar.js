@@ -24,7 +24,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className='flex flex-col overflow-scroll gap-y-2 h-[90%]
+      <div className='flex flex-col overflow-scroll gap-y-2 h-[55%] sm:h-[300px]
       overflow-y-auto '>
         {cart.map(item=>(
           <CartItem item={item} key={item.id}  />
